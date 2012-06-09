@@ -1,0 +1,34 @@
+线程池是一组线程，共同执行相同的工作，使用列表、队列等作同步，当执行完毕后，通知给调用线程。
+而普通的线程是单打独斗的，当执行完毕或者需要执行新任务的时候，往往重新额外创建一个线程。
+线程池是可复用的，通过回调函数传递进去需要执行的函数。
+
+一个 C 语言的线程池调用接口类似：
+struct thread_pool
+{
+	struct queue *task_queue;       //用于线程之间同步任务状态
+	struct thread *thread_list;		//线程池里面干活的线程
+	thread_pool_callable *callable; //要调用的回调函数
+};
+
+int thread_pool_init();
+int thread_pool_set_callable();
+int thread_pool_state();
+int thread_pool_start();
+
+int do_some_thing()					//回调函数
+
+以前写过 C 语言的线程池，不知还能不能找到代码，有空找找，如果能找到就贴出来:)
+
+如果 C 语言是把匕首，短小，用起来简单直接，那 Python 之类的动态语言就是一个装满机关的盒子，是像古龙写的孔雀翎一类的东西。
+盒子身上都是按钮，组合起来，不仅能作为武器好用，切瓜也好用。
+
+我们来使用 Python 来实现一个简单的线程池，只完成基本的线程池功能。  
+用到的模块：
+* Queue
+* threading  
+* wrapper 的概念
+
+  
+
+
+
