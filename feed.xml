@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>my blog</title>
+    <link href="http://www.example.com/feed.xml" rel="self" />
+    
+    <link href="http://www.example.com" />
+    
+    <updated>2012-06-10T09:21:00Z</updated>
+    <id>http://www.example.com</id>
+    <entry>
+        <title type="html"><![CDATA[shell 分割字符串]]></title>
+        <author><name>admin</name><uri>http://www.example.com</uri></author>
+        <link href="http://www.example.com/2012/test.html"/>
+        <updated>2012-06-10T00:00:00Z</updated>
+        <published>2012-06-10T00:00:00Z</published>
+        <id>http://www.example.com/2012/test.html</id>
+        <category scheme="http://www.example.com/tag/生活/" term="生活" label="生活" />
+        <category scheme="http://www.example.com/tag/程序/" term="程序" label="程序" />
+        <content type="html" xml:base="http://www.example.com" xml:lang="en">
+            <![CDATA[ <p>终于下决心开始学习shell了，虽然基本shell的所有功能都能通过Python来完成，但其强大的地方在于起到一种胶水的作用，将unix/linux粘在一起，成为一个有机体。<br />
+从学习linux的角度来讲是十分有必要的。<br />
+以前切割字符串多用Python，代码这么写：</p> ]]>
+        </content>
+    </entry>
+    </feed>
