@@ -5,8 +5,20 @@
     
     <link href="http://www.example.com" />
     
-    <updated>2012-06-11T10:32:18Z</updated>
+    <updated>2012-07-07T12:07:31Z</updated>
     <id>http://www.example.com</id>
+    <entry>
+        <title type="html"><![CDATA[test ]]></title>
+        <author><name>admin</name><uri>http://www.example.com</uri></author>
+        <link href="http://www.example.com/2012/test.html"/>
+        <updated>2012-07-07T00:00:00Z</updated>
+        <published>2012-07-07T00:00:00Z</published>
+        <id>http://www.example.com/2012/test.html</id>
+        <category scheme="http://www.example.com/tag/life/" term="life" label="Life" />
+        <content type="html" xml:base="http://www.example.com" xml:lang="en">
+            <![CDATA[ <p>test</p> ]]>
+        </content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[使用 Python 的动态特性]]></title>
         <author><name>admin</name><uri>http://www.example.com</uri></author>
