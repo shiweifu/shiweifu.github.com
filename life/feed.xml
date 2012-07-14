@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Exception</title>
-    <link href="http://shiweifu.github.com/feed.xml" rel="self" />
-    <link href="http://shiweifu.github.com/" />
+    <link href="http://shiweifu.github.com/life/feed.xml" rel="self" />
+    <link href="http://shiweifu.github.com/life/" />
     <updated>2012-07-14T15:44:43+00:00</updated>
-    <id>http://shiweifu.github.com/</id>
+    <id>http://shiweifu.github.com/life/</id>
     <entry>
         <title type="html"><![CDATA[新家]]></title>
         <author><name>nickname</name><uri>http://shiweifu.github.com</uri></author>
