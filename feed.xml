@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <title>my blog</title>
-    <link href="http://www.example.com/feed.xml" rel="self" />
+    <title>Exception&Life</title>
+    <link href="http://shiweifu.github.com/feed.xml" rel="self" />
     
-    <link href="http://www.example.com" />
+    <link href="http://shiweifu.github.com" />
     
-    <updated>2012-07-14T11:44:13Z</updated>
-    <id>http://www.example.com</id>
+    <updated>2012-07-14T11:56:50Z</updated>
+    <id>http://shiweifu.github.com</id>
     <entry>
         <title type="html"><![CDATA[test2]]></title>
-        <author><name>admin</name><uri>http://www.example.com</uri></author>
-        <link href="http://www.example.com/2012/test2.html"/>
+        <author><name>shiweifu</name><uri>http://shiweifu.github.com</uri></author>
+        <link href="http://shiweifu.github.com/2012/test2.html"/>
         <updated>2012-07-14T00:00:00Z</updated>
         <published>2012-07-14T00:00:00Z</published>
-        <id>http://www.example.com/2012/test2.html</id>
-        <category scheme="http://www.example.com/tag/life/" term="life" label="Life" />
-        <content type="html" xml:base="http://www.example.com" xml:lang="en">
+        <id>http://shiweifu.github.com/2012/test2.html</id>
+        <category scheme="http://shiweifu.github.com/tag/life/" term="life" label="Life" />
+        <content type="html" xml:base="http://shiweifu.github.com" xml:lang="en">
             <![CDATA[ <h3>测试代码显示是否正常:</h3>
 <pre><code>#! #usr#bin#python
 #coding: utf-8
@@ -296,25 +296,25 @@ if __name__ == '__main__':
     </entry>
     <entry>
         <title type="html"><![CDATA[test ]]></title>
-        <author><name>admin</name><uri>http://www.example.com</uri></author>
-        <link href="http://www.example.com/2012/test.html"/>
+        <author><name>shiweifu</name><uri>http://shiweifu.github.com</uri></author>
+        <link href="http://shiweifu.github.com/2012/test.html"/>
         <updated>2012-07-07T00:00:00Z</updated>
         <published>2012-07-07T00:00:00Z</published>
-        <id>http://www.example.com/2012/test.html</id>
-        <category scheme="http://www.example.com/tag/life/" term="life" label="Life" />
-        <content type="html" xml:base="http://www.example.com" xml:lang="en">
+        <id>http://shiweifu.github.com/2012/test.html</id>
+        <category scheme="http://shiweifu.github.com/tag/life/" term="life" label="Life" />
+        <content type="html" xml:base="http://shiweifu.github.com" xml:lang="en">
             <![CDATA[ <p>test</p> ]]>
         </content>
     </entry>
     <entry>
         <title type="html"><![CDATA[使用 Python 的动态特性]]></title>
-        <author><name>admin</name><uri>http://www.example.com</uri></author>
-        <link href="http://www.example.com/2012/python的动态特性.html"/>
+        <author><name>shiweifu</name><uri>http://shiweifu.github.com</uri></author>
+        <link href="http://shiweifu.github.com/2012/python的动态特性.html"/>
         <updated>2012-05-12T00:00:00Z</updated>
         <published>2012-05-12T00:00:00Z</published>
-        <id>http://www.example.com/2012/python的动态特性.html</id>
-        <category scheme="http://www.example.com/tag/python/" term="python" label="Python" />
-        <content type="html" xml:base="http://www.example.com" xml:lang="en">
+        <id>http://shiweifu.github.com/2012/python的动态特性.html</id>
+        <category scheme="http://shiweifu.github.com/tag/python/" term="python" label="Python" />
+        <content type="html" xml:base="http://shiweifu.github.com" xml:lang="en">
             <![CDATA[ <p>使用Python 的动态特性，可以优化掉很多冗余的代码。
 编写oauth程序的时候，会遇到这种情况：</p>
 <p><em>GET /blocks/ids    获取用户黑名单id列表      </em>
