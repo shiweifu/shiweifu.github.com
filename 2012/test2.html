@@ -1,22 +1,47 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-    <title>my blog</title>
-    <link href="http://www.example.com/feed.xml" rel="self" />
-    
-    <link href="http://www.example.com" />
-    
-    <updated>2012-07-14T11:44:13Z</updated>
-    <id>http://www.example.com</id>
-    <entry>
-        <title type="html"><![CDATA[test2]]></title>
-        <author><name>admin</name><uri>http://www.example.com</uri></author>
-        <link href="http://www.example.com/2012/test2.html"/>
-        <updated>2012-07-14T00:00:00Z</updated>
-        <published>2012-07-14T00:00:00Z</published>
-        <id>http://www.example.com/2012/test2.html</id>
-        <category scheme="http://www.example.com/tag/life/" term="life" label="Life" />
-        <content type="html" xml:base="http://www.example.com" xml:lang="en">
-            <![CDATA[ <h3>测试代码显示是否正常:</h3>
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>test2 | my blog</title>
+        <script>if (top !== self) top.location = self.location;</script>
+        <meta name="HandheldFriendly" content="True" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0" />
+        
+<meta name="author" content="admin" />
+
+        
+        <link rel="alternate" type="application/rss+xml" href="/feed.xml" title="my blog Feed" />
+        <link rel="stylesheet" href="/static/style.css?v=986af" />
+        
+<link rel="canonical" href="/2012/test2.html" />
+<link rel="stylesheet" href="/static/syntax.css?v=dbf77" />
+
+        
+     </head>
+     <body>
+         <header id="header">
+             <nav class="fn-clear">
+                 <ul id="nav" class="fn-right fn-clear">
+                     <li id="nav-home"><a href="/">Home</a></li>
+                     <li id="nav-tags"><a href="/tag/">Tags</a></li>
+                 </ul>
+             </nav>
+         </header>
+         
+         <article class="hentry">
+             <header class="entry-header fn-clear">
+                 <h1 class="entry-title fn-left"><a href="/2012/test2.html">test2</a></h1>
+                 
+                 <form id="search-form" action="http://www.google.com/search">
+                     <input type="hidden" name="q" value="site:http://www.example.com" />
+                     <input id="search-input" class="ui-fm-text" type="text" placeholder="Search .." name="q" />
+                 </form>
+                 
+             </header>
+             
+<div class="entry">
+    <div class="entry-content">
+        <h3>测试代码显示是否正常:</h3>
 <pre><code>#! #usr#bin#python
 #coding: utf-8
 
@@ -291,108 +316,42 @@ def main():
 
 if __name__ == '__main__':
     main()
-</code></pre> ]]>
-        </content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[test ]]></title>
-        <author><name>admin</name><uri>http://www.example.com</uri></author>
-        <link href="http://www.example.com/2012/test.html"/>
-        <updated>2012-07-07T00:00:00Z</updated>
-        <published>2012-07-07T00:00:00Z</published>
-        <id>http://www.example.com/2012/test.html</id>
-        <category scheme="http://www.example.com/tag/life/" term="life" label="Life" />
-        <content type="html" xml:base="http://www.example.com" xml:lang="en">
-            <![CDATA[ <p>test</p> ]]>
-        </content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[使用 Python 的动态特性]]></title>
-        <author><name>admin</name><uri>http://www.example.com</uri></author>
-        <link href="http://www.example.com/2012/python的动态特性.html"/>
-        <updated>2012-05-12T00:00:00Z</updated>
-        <published>2012-05-12T00:00:00Z</published>
-        <id>http://www.example.com/2012/python的动态特性.html</id>
-        <category scheme="http://www.example.com/tag/python/" term="python" label="Python" />
-        <content type="html" xml:base="http://www.example.com" xml:lang="en">
-            <![CDATA[ <p>使用Python 的动态特性，可以优化掉很多冗余的代码。
-编写oauth程序的时候，会遇到这种情况：</p>
-<p><em>GET /blocks/ids    获取用户黑名单id列表      </em>
-<em>GET /blocks/blocking   获取黑名单上用户资料  </em>
-<em>POST /blocks/create    把指定id用户加入黑名单</em> <br />
-<em>GET /blocks/exists 检查用户是否被加入了黑名单 </em><br />
-<em>POST /blocks/destroy   将指定id用户解除黑名单</em></p>
-<p>这些都是饭否开放的REST接口，用户通过调用这些接口，来实现对应的功能，然后我写出了类似这样的代码：</p>
-<pre lang="Python" colla="-"> 
-class UrlToken(object):
-    """docstring for UrlToken"""
-    url = ""
-    method = -1
-    must_has = "status"
-    def __init__(self, _url, _method):
-        super(UrlToken, self).__init__()
-        self.url = _url
-        self.method = _method
-
-class FanfouStatusHandle(FanfouHandle):
-    """docstring for FanfouUsersHandle"""        
-
-    def __init__(self, _account):
-        super(FanfouStatusHandle2, self).__init__()
-        self.account = _account
-        self.headers = self.account.get_headers()
-        self.consumer_token  = self.account.get_consumer_token()
-
-    def update(self, status):
-        """ update user state"""
-        tok = UrlToken("POST", "/status/update.json")
-        _http_call(tok)
-
-    def destroy(self, msg_id = None):
-        """ destroy fanfou status by msg_id """
-        tok = UrlToken("POST", "/status/destroy.json")
-        _http_call(tok)
-
-class FanfouAccountHandle(FanfouHandle):
-    def __init__(self, _account):
-        super(FanfouStatusHandle2, self).__init__()
-        self.account = _account
-        self.headers = self.account.get_headers()
-        self.consumer_token  = self.account.get_consumer_token()
-
-    def verify_credentials(self):
-        """ verify_credentials """
-        tok = UrlToken("GET", "/account/verify_credentials.json")
-        _http_call(tok)
-</pre>
-
-<p>这么写，用户调用很方便，每个接口模块写成一个类，再写个lib类，把这些单独的类再都实现一遍，然后调用就成了：
-lib.statuses.update(status="hello lib")
-用起来还算舒服，但看着一坨一坨的重复代码，太ugly了。</p>
-<p>因为之前写的大多是C语言的程序，所以对反射这种高级货不太了解，基本上对这些动态特性，停留在“知道”。
-知道有hasattr,getattr这些用于自省的特性，但从来没用过，那就拿这个程序下手。</p>
-<p>其实调用最终都是调到_http_call这里去，不同的是：
-1、函数名
-2、UrlToken</p>
-<p>可以通过重载<strong>getattr</strong>来获得要调用的函数名，然后在里面写个wrapper，用闭包来做不同函数的调用。
-<pre lang="Python" colla="-"> </p>
-<p>class Handle:
-    def <strong>init</strong>(self, _toks):
-        #toks是个字典结构，里面以kv的形式存储了需要的UrlToken
-        self.toks = _toks</p>
-<pre><code>def __getattr__(self, attr):
-    if self.toks.has_key(attr) == False:
-        raise NotImplemetedError
-    tok = self.toks[attr]
-
-    def wrapper(**kw):
-        return _http_call(tok,kw)
 </code></pre>
-</pre>
+    </div>
+    <div class="fn-clear">
+        <p class="entry-rel fn-right">
+        
+        
+        <a id="next-entry" href="/2012/test.html" title="test " rel="next">Next»</a>
+        
+        </p>
+    </div>
+</div>
+<div class="entry-meta fn-clear">
+    <p class="entry-time fn-left">
+    Created at: 
+    <a href="/2012/" rel="index"><time class="updated" datetime="2012-07-14T00:00:00Z" pubdate>Sat, Jul 14, 2012</time></a>
+    </p>
+    
+    <p class="entry-tags fn-left">
+    Tagged in:
+    
+    <a href="/tag/life/" class="tag" rel="tag">life</a>
+    
+    </p>
+    
+</div>
 
-<p>这么写之后，只需要构建一个大的UrlToken集合，里面有不同的地址和调用方式再封装个FanfouLib的类就可以了。</p>
-<p>具体的代码，请参看项目。
-地址：https://github.com/shiweifu/fanfoulib</p> ]]>
-        </content>
-    </entry>
-    </feed>
+
+         </article>
+         
+         <footer id="footer">
+             <div class="copyright">Copyright by <a href="http://www.example.com">my blog</a> | Powered by <a href="http://lepture.com/project/liquidluck">Felix Felicis</a></div>
+             <p class="love">Lovely designed by <a href="http://lepture.com">lepture</a></p>
+         </footer>
+         <script type="text/javascript">
+             var currentNav = window.currentNav || "nav-home";
+             document.getElementById(currentNav).className = "current";
+         </script>
+     </body>
+ </html>
