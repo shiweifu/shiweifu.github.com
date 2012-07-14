@@ -3,35 +3,15 @@
     <title>Exception</title>
     <link href="http://shiweifu.github.com/life/feed.xml" rel="self" />
     <link href="http://shiweifu.github.com/life/" />
-    <updated>2012-07-14T18:12:22+00:00</updated>
+    <updated>2012-07-14T21:35:32+00:00</updated>
     <id>http://shiweifu.github.com/life/</id>
     <entry>
-        <title type="html"><![CDATA[another day~]]></title>
+        <title type="html"><![CDATA[another day]]></title>
         <author><name>nickname</name><uri>http://shiweifu.github.com</uri></author>
         <link href="http://shiweifu.github.com/2012/first.html"/>
         <updated>2012-07-14T00:00:00+00:00</updated>
         <published>2012-07-14T00:00:00+00:00</published>
         <id>http://shiweifu.github.com/2012/first.html</id>
-        <category scheme="http://shiweifu.github.com/tag/亦真.html" term="亦真" label="亦真" />
-        <category scheme="http://shiweifu.github.com/tag/生活.html" term="生活" label="生活" />
-        <category scheme="http://shiweifu.github.com/tag/琐碎.html" term="琐碎" label="琐碎" />
-        <content type="html" xml:base="http://shiweifu.github.com" xml:lang="en">
-            <![CDATA[ <p>转了一圈，决定还是用github+静态页面。<br/>
-算了算自己已经用过3个博客，平均每个两年，从初三结束一直到大学毕业。 
-所幸用过的三个BSP还都活着，都能正常访问。<br/>
-哈，自己也还活着，还在不断向前~<br/>
-生活正渐渐变得稳定，希望未来一切都好，过段时间可能弄个域名~</p>
-
-            
-            ]]>
-        </content>
-    </entry><entry>
-        <title type="html"><![CDATA[first]]></title>
-        <author><name>nickname</name><uri>http://shiweifu.github.com</uri></author>
-        <link href="http://shiweifu.github.com/2012/page.html"/>
-        <updated>2012-07-14T00:00:00+00:00</updated>
-        <published>2012-07-14T00:00:00+00:00</published>
-        <id>http://shiweifu.github.com/2012/page.html</id>
         <category scheme="http://shiweifu.github.com/tag/亦真.html" term="亦真" label="亦真" />
         <category scheme="http://shiweifu.github.com/tag/生活.html" term="生活" label="生活" />
         <category scheme="http://shiweifu.github.com/tag/琐碎.html" term="琐碎" label="琐碎" />
