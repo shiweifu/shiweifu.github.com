@@ -3,40 +3,14 @@
     <title>Exception</title>
     <link href="http://shiweifu.github.com/feed.xml" rel="self" />
     <link href="http://shiweifu.github.com/" />
-    <updated>2012-07-30T09:18:47+00:00</updated>
+    <updated>2012-07-30T09:20:56+00:00</updated>
     <id>http://shiweifu.github.com/</id>
     <entry>
-        <title type="html"><![CDATA[20120715 周记]]></title>
-        <author><name>nickname</name><uri>http://shiweifu.github.com</uri></author>
-        <link href="http://shiweifu.github.com/2012/20120715.html"/>
-        <updated>2012-07-15T00:00:00+00:00</updated>
-        <published>2012-07-15T00:00:00+00:00</published>
-        <id>http://shiweifu.github.com/2012/20120715.html</id>
-        <category scheme="http://shiweifu.github.com/tag/亦真.html" term="亦真" label="亦真" />
-        <category scheme="http://shiweifu.github.com/tag/生活.html" term="生活" label="生活" />
-        <category scheme="http://shiweifu.github.com/tag/琐碎.html" term="琐碎" label="琐碎" />
-        <content type="html" xml:base="http://shiweifu.github.com" xml:lang="en">
-            <![CDATA[ <h3>上班第二周</h3>
-
-<ul>
-<li>周一在改前一周的项目遗留问题</li>
-<li>周二到周五利用Python 编写新项目的代码</li>
-<li>周五下午重构了代码,整齐了不少,理解了装饰器模式</li>
-<li>周五晚上和lily 去吃了麻辣香锅,要的中辣,吃起来菊花开</li>
-<li>周六在车库咖啡,遇到了几个莫名其妙的人,闲扯了几句</li>
-<li>周日在公司小改了下代码</li>
-</ul>
-<p>大概就这么多了,目前一切都好,这周估计是要维护第一周做的项目,希望一切顺利</p>
-
-            
-            ]]>
-        </content>
-    </entry><entry>
         <title type="html"><![CDATA[20120729 周记]]></title>
         <author><name>nickname</name><uri>http://shiweifu.github.com</uri></author>
         <link href="http://shiweifu.github.com/2012/20120729.html"/>
-        <updated>2012-07-15T00:00:00+00:00</updated>
-        <published>2012-07-15T00:00:00+00:00</published>
+        <updated>2012-07-29T00:00:00+00:00</updated>
+        <published>2012-07-29T00:00:00+00:00</published>
         <id>http://shiweifu.github.com/2012/20120729.html</id>
         <category scheme="http://shiweifu.github.com/tag/亦真.html" term="亦真" label="亦真" />
         <category scheme="http://shiweifu.github.com/tag/生活.html" term="生活" label="生活" />
@@ -60,6 +34,32 @@
 最近几天，晚上都在坚持做仰卧起坐和俯卧撑，这是因为感觉自己的肚子大了一圈…… 
 为了避免自己成为一个猥琐的胖子，要坚持啊！！饮食上也要控制了 </p>
 <p>就这样吧，美好的一周结束了，更美好的一周开始了。</p>
+
+            
+            ]]>
+        </content>
+    </entry><entry>
+        <title type="html"><![CDATA[20120715 周记]]></title>
+        <author><name>nickname</name><uri>http://shiweifu.github.com</uri></author>
+        <link href="http://shiweifu.github.com/2012/20120715.html"/>
+        <updated>2012-07-15T00:00:00+00:00</updated>
+        <published>2012-07-15T00:00:00+00:00</published>
+        <id>http://shiweifu.github.com/2012/20120715.html</id>
+        <category scheme="http://shiweifu.github.com/tag/亦真.html" term="亦真" label="亦真" />
+        <category scheme="http://shiweifu.github.com/tag/生活.html" term="生活" label="生活" />
+        <category scheme="http://shiweifu.github.com/tag/琐碎.html" term="琐碎" label="琐碎" />
+        <content type="html" xml:base="http://shiweifu.github.com" xml:lang="en">
+            <![CDATA[ <h3>上班第二周</h3>
+
+<ul>
+<li>周一在改前一周的项目遗留问题</li>
+<li>周二到周五利用Python 编写新项目的代码</li>
+<li>周五下午重构了代码,整齐了不少,理解了装饰器模式</li>
+<li>周五晚上和lily 去吃了麻辣香锅,要的中辣,吃起来菊花开</li>
+<li>周六在车库咖啡,遇到了几个莫名其妙的人,闲扯了几句</li>
+<li>周日在公司小改了下代码</li>
+</ul>
+<p>大概就这么多了,目前一切都好,这周估计是要维护第一周做的项目,希望一切顺利</p>
 
             
             ]]>
