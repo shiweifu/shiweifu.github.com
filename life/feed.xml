@@ -3,9 +3,40 @@
     <title>Exception</title>
     <link href="http://shiweifu.github.com/life/feed.xml" rel="self" />
     <link href="http://shiweifu.github.com/life/" />
-    <updated>2012-07-30T09:20:56+00:00</updated>
+    <updated>2012-08-06T09:33:57+00:00</updated>
     <id>http://shiweifu.github.com/life/</id>
     <entry>
+        <title type="html"><![CDATA[20120805 周记]]></title>
+        <author><name>nickname</name><uri>http://shiweifu.github.com</uri></author>
+        <link href="http://shiweifu.github.com/2012/2012.08.05.html"/>
+        <updated>2012-08-05T00:00:00+00:00</updated>
+        <published>2012-08-05T00:00:00+00:00</published>
+        <id>http://shiweifu.github.com/2012/2012.08.05.html</id>
+        <category scheme="http://shiweifu.github.com/tag/亦真.html" term="亦真" label="亦真" />
+        <category scheme="http://shiweifu.github.com/tag/生活.html" term="生活" label="生活" />
+        <category scheme="http://shiweifu.github.com/tag/琐碎.html" term="琐碎" label="琐碎" />
+        <content type="html" xml:base="http://shiweifu.github.com" xml:lang="en">
+            <![CDATA[ <p>又一周，转眼上班已经一个月了。<br/>
+这周工作上做了这些事：<br/>
+ * 完成第一周做的那个项目<br/>
+ * 基本完成上一周的项目<br/>
+   * 搞到了周五晚上9点<br/>
+   * 周日又来改了一个bug<br/>
+   * nginx 的性能很惊人<br/>
+ * 因为打字声音大，被同事喷了<br/>
+   * 又买了把键盘，希望有所改善  </p>
+<p>生活上的：<br/>
+ * 北京的雨到周三停了<br/>
+ * 周一去见了某人<br/>
+ * 走了两个同事，周一一起吃了个饭<br/>
+ * 快把《浮生六记》看完了<br/>
+ * 发现住的地方旁边有家陕西面馆蛮不错的  </p>
+<p>基本就这么多，下一周又有新任务了，希望一切顺利</p>
+
+            
+            ]]>
+        </content>
+    </entry><entry>
         <title type="html"><![CDATA[20120729 周记]]></title>
         <author><name>nickname</name><uri>http://shiweifu.github.com</uri></author>
         <link href="http://shiweifu.github.com/2012/20120729.html"/>

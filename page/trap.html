@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>琐碎 - Exception</title>
+        <title>坑 - Exception</title>
         <script>if (top !== self) top.location = self.location;</script>
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0" />
         <link rel="stylesheet" href="/static/style.css?v=83768" />
@@ -14,7 +14,8 @@
         <![endif]-->
         
         
-<meta name="description" content="" />
+<link rel="canonical" href="/trap.html" />
+
 
     </head>
     <body>
@@ -30,33 +31,17 @@
 
         <div id="main">
             <div class="container">
-<ul class="entry-list">
-    
-    <li class="entry-item entry-item-title">
-    <a href="/2012/">2012</a>
-    </li>
-    <li class="entry-item">
-        <time class="updated" datetime="2012-08-05T00:00:00+00:00">2012-08-05</time>
-        <a href="/2012/2012.08.05.html">20120805 周记</a>
-    </li>
-    
-    <li class="entry-item">
-        <time class="updated" datetime="2012-07-29T00:00:00+00:00">2012-07-29</time>
-        <a href="/2012/20120729.html">20120729 周记</a>
-    </li>
-    
-    <li class="entry-item">
-        <time class="updated" datetime="2012-07-15T00:00:00+00:00">2012-07-15</time>
-        <a href="/2012/20120715.html">20120715 周记</a>
-    </li>
-    
-    <li class="entry-item">
-        <time class="updated" datetime="2012-07-14T00:00:00+00:00">2012-07-14</time>
-        <a href="/2012/first.html">another day</a>
-    </li>
-    
+<div class="hentry">
+    <h1 class="entry-title">坑</h1>
+    <div class="entry-content">
+        <h3>2012.08.05</h3>
+
+<ul>
+<li>对openresty 服务器进行压力测试，不久就挂了，日志显示是因为分配不到内存。以为是代码的问题，反复揣摩，未发现啥问题，在nginx配置文件中调整进程数，略微有效，还是会挂，想到周日晚上可能会家班，非常难过……想到了为了方便调试，在配置中打开了缓存lua代码的选项，将其关闭，再测试，cpu 轻松跑满，内存占用只有10多MB，松了一口气。</li>
 </ul>
 
+    </div>
+</div>
 </div>
         </div>
 
