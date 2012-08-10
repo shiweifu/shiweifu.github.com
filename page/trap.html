@@ -46,6 +46,20 @@
 <li>随机生成文件名总是随机性不够大，1000个中会重复一次，折腾了半天，发现是忘了给lua 加srand，最终搞定</li>
 </ul>
 
+<h3>2012.08.08</h3>
+
+<ul>
+<li>在用的公司库遭遇奇怪问题，折腾了半天，在主程的点拨下，得知是openresty 版本的问题……原来公司用的是development版</li>
+</ul>
+
+<h3>2012.08.10</h3>
+
+<ul>
+<li>用Python 写了一个调用curl 来访问url 添加测试数据的工具。得到的数据总是不对，百思不得其解，google之，在curl faq 页面发现这么段话：
+&gt; Exactly what kind of quotes and how to do this is entirely up to the shell or command line interpreter that you are using. For most unix shells, you can more or less pick either single (&#39;) or double (&ldquo;) quotes. For Windows/DOS prompts I believe you&#39;re forced to use double (&rdquo;) quotes. &ldquo;)&#39;)<br/></li>
+</ul>
+<p>好吧，原来我的引号是被shell 干掉了</p>
+
     </div>
 </div>
 </div>
