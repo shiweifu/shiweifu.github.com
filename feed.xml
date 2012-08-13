@@ -3,34 +3,74 @@
     <title>Exception</title>
     <link href="http://shiweifu.github.com/feed.xml" rel="self" />
     <link href="http://shiweifu.github.com/" />
-    <updated>2012-08-06T09:33:57+00:00</updated>
+    <updated>2012-08-13T15:38:58+00:00</updated>
     <id>http://shiweifu.github.com/</id>
     <entry>
+        <title type="html"><![CDATA[20120812 周记]]></title>
+        <author><name>nickname</name><uri>http://shiweifu.github.com</uri></author>
+        <link href="http://shiweifu.github.com/2012/20120812.html"/>
+        <published>2012-08-12T00:00:00+00:00</published>
+        <updated>2012-08-13T15:38:58+00:00</updated>
+        <id>http://shiweifu.github.com/2012/20120812.html</id>
+        <category scheme="http://shiweifu.github.com/tag/亦真/" term="亦真" label="亦真" />
+        <category scheme="http://shiweifu.github.com/tag/生活/" term="生活" label="生活" />
+        <category scheme="http://shiweifu.github.com/tag/琐碎/" term="琐碎" label="琐碎" />
+        <content type="html" xml:base="http://shiweifu.github.com" xml:lang="en">
+            <![CDATA[ <h3>上班第六周,2012年第32周</h3>
+
+<ul>
+<li>这周一直在用mx四核来做主力电话，目前感觉良好。
+
+<ul>
+<li>其实是好了伤疤忘了疼，去年时用m9的惨痛会议，让我当时发誓不买meizu任何产，今年就忘了……不过确实有不少提升，这块屏幕我觉得比4s看起来更舒服</li>
+</ul></li>
+<li>周一解决了上个项目的一些遗留问题，周二开始做下一个项目，还是一些内部使用的json 接口，使用一套内部的lua 框架来做。然后就这么一直搞到了周五晚上，总算有些进展，提交代码，周六收到老大邮件，说改了不少代码，叫我看看。我pull 下代码之后diff 了一下，发现还真不少，大部分是代码结构上的调整（git log显示是半夜一点多提交的……</li>
+<li>这周末是和某同学一起度过的，周末回来算了下经济崩溃了……最大的收获是从优衣库买了件tee很喜欢~</li>
+<li>周日自己去看了场电影，《听风者》。感觉还行。</li>
+</ul>
+<p>下周不是回家就是去保定，哎，折腾的一周开始了。</p>
+]]>
+        </content>
+    </entry><entry>
         <title type="html"><![CDATA[20120805 周记]]></title>
         <author><name>nickname</name><uri>http://shiweifu.github.com</uri></author>
         <link href="http://shiweifu.github.com/2012/20120805.html"/>
         <published>2012-08-05T00:00:00+00:00</published>
-        <updated>2012-08-06T09:33:57+00:00</updated>
+        <updated>2012-08-11T17:33:56+00:00</updated>
         <id>http://shiweifu.github.com/2012/20120805.html</id>
         <category scheme="http://shiweifu.github.com/tag/亦真/" term="亦真" label="亦真" />
         <category scheme="http://shiweifu.github.com/tag/生活/" term="生活" label="生活" />
         <category scheme="http://shiweifu.github.com/tag/琐碎/" term="琐碎" label="琐碎" />
         <content type="html" xml:base="http://shiweifu.github.com" xml:lang="en">
-            <![CDATA[ <p>又一周，转眼上班已经一个月了。<br/>
-这周工作上做了这些事：<br/>
- * 完成第一周做的那个项目<br/>
- * 基本完成上一周的项目<br/>
-   * 搞到了周五晚上9点<br/>
-   * 周日又来改了一个bug<br/>
-   * nginx 的性能很惊人<br/>
- * 因为打字声音大，被同事喷了<br/>
-   * 又买了把键盘，希望有所改善  </p>
-<p>生活上的：<br/>
- * 北京的雨到周三停了<br/>
- * 周一去见了某人<br/>
- * 走了两个同事，周一一起吃了个饭<br/>
- * 快把《浮生六记》看完了<br/>
- * 发现住的地方旁边有家陕西面馆蛮不错的  </p>
+            <![CDATA[ <p>又一周，转眼上班已经一个月了。  </p>
+
+<h3>这周工作上做了这些事：</h3>
+
+<ul>
+<li>完成第一周做的那个项目<br/></li>
+<li>基本完成上一周的项目<br/>
+
+<ul>
+<li>搞到了周五晚上9点<br/></li>
+<li>周日又来改了一个bug<br/></li>
+<li>nginx 的性能很惊人<br/></li>
+</ul></li>
+<li>因为打字声音大，被同事喷了<br/>
+
+<ul>
+<li>又买了把键盘，希望有所改善<br/></li>
+</ul></li>
+</ul>
+
+<h3>生活上的：</h3>
+
+<ul>
+<li>北京的雨到周三停了<br/></li>
+<li>周一去见了某人<br/></li>
+<li>走了两个同事，周一一起吃了个饭<br/></li>
+<li>快把《浮生六记》看完了<br/></li>
+<li>发现住的地方旁边有家陕西面馆蛮不错的<br/></li>
+</ul>
 <p>基本就这么多，下一周又有新任务了，希望一切顺利</p>
 ]]>
         </content>
