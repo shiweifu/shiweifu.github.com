@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>20120812 周记 - Exception</title>
+        <title>使用vim和wget批量下载文件 - Exception</title>
         <script>if (top !== self) top.location = self.location;</script>
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0" />
         <link rel="stylesheet" href="/static/style.css?v=3dd6b" />
@@ -14,7 +14,7 @@
         <![endif]-->
         
         
-<link rel="canonical" href="/2012/20120812.html" />
+<link rel="canonical" href="/2012/使用vim和wget批量下载文件.html" />
 
 
     </head>
@@ -31,10 +31,10 @@
 
         <div id="main">
             <div class="container"><div class="hentry">
-    <h1 class="entry-title">20120812 周记</h1>
+    <h1 class="entry-title">使用vim和wget批量下载文件</h1>
     <div class="entry-meta">
-        <time class="updated" datetime="2012-08-12T00:00:00+00:00" pubdate>
-            <a href="/2012/">2012-08-12</a>
+        <time class="updated" datetime="2012-09-10T00:00:00+00:00" pubdate>
+            <a href="/2012/">2012-09-10</a>
         </time>
         <span class="author vcard">
             by <a class="url fn" href="http://shiweifu.github.com">shiweifu</a>
@@ -42,19 +42,37 @@
         </span>
     </div>
     <div class="entry-content">
-        <h3>上班第六周,2012年第32周</h3>
+        <p>遇到连续链接的下载地址，类似这样的：<br/>
+<code>http://abc.com/file[1-20]</code><br/>
+怎么办？ Windows 下的主流下载工具都支持，呵呵，但其不在本文讨论范围内。<br/>
+本文讨论的方法是使用vim来生成有序的链接地址，然后丢给wget/curl 这类下载工具来进行处理。</p>
+<p>vim 支持递增数字：<br/>
+<code>ctrl+a</code></p>
+<p>vim 支持录制宏：<br/>
+<code>q[a-z]</code> </p>
+<p>播放宏：<br/>
+<code>@[a-z]</code></p>
+<p>wget 支持从文件加载下载地址：<br/>
+<code>-i,  --input-file=FILE     下载本地或外部 FILE 中的 URLs。</code>  </p>
+<p>齐活儿。</p>
+
+<h2>抛砖引玉：</h2>
 
 <ul>
-<li>这周一直在用mx四核来做主力电话，目前感觉良好。
+<li>创建个文件，贴上文件地址</li>
+<li>开始录制宏
 
 <ul>
-<li>其实是好了伤疤忘了疼，去年时用m9的惨痛会议，让我当时发誓不买meizu任何产，今年就忘了……不过确实有不少提升，这块屏幕我觉得比4s看起来更舒服</li>
+<li>对进行变化的数字＋1</li>
+<li>换行</li>
 </ul></li>
-<li>周一解决了上个项目的一些遗留问题，周二开始做下一个项目，还是一些内部使用的json 接口，使用一套内部的lua 框架来做。然后就这么一直搞到了周五晚上，总算有些进展，提交代码，周六收到老大邮件，说改了不少代码，叫我看看。我pull 下代码之后diff 了一下，发现还真不少，大部分是代码结构上的调整（git log显示是半夜一点多提交的……</li>
-<li>这周末是和某同学一起度过的，周末回来算了下经济崩溃了……最大的收获是从优衣库买了件tee很喜欢~</li>
-<li>周日自己去看了场电影，《听风者》。感觉还行。</li>
+<li>结束录制宏，再按下q</li>
+<li>开始播放宏，想要多少个链接要多少个链接</li>
+<li>wget -i filename</li>
+<li>收工</li>
 </ul>
-<p>下周不是回家就是去保定，哎，折腾的一周开始了。</p>
+<p>引用某论坛看到的一句话：<br/>
+<code>照这个思路，其实你啥都不缺</code></p>
 
     </div>
 
@@ -62,16 +80,14 @@
 
     <div class="entry-tags">
         
-        <a href="/tag/亦真/">亦真</a>
-        <a href="/tag/生活/">生活</a>
-        <a href="/tag/琐碎/">琐碎</a>
+        <a href="/tag/技术/">技术</a>
     </div>
 
     
     <div id="disqus_thread"></div>
     <script type="text/javascript">
         var disqus_shortname = 'True';
-        var disqus_title = '20120812 周记';
+        var disqus_title = '使用vim和wget批量下载文件';
         (function() {
             var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
             dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
